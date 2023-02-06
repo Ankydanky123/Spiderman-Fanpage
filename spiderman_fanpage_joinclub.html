@@ -1,0 +1,226 @@
+<html>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html {
+        margin: none;
+        font-family: sans-serif;
+    }
+
+    header {
+        background-color: #911a1a;
+        height: 100px;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #4cdce0;
+        height: 80px;
+        text-align: center;
+        padding-top: 20px;
+        color: #f2f2f2;
+        font-size: 20px;
+        margin-top: 50px;
+        font-family: Serif, Garamond;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    ul {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    li>a {
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        background: #f2f2f2;
+        border-radius: 12px;
+        transition: padding 0.25s, color 0.25s;
+    }
+
+    li {
+        padding-right: 20px;
+        padding-right: 30px;
+    }
+
+    li:first-child {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    li:hover>a {
+        color: white;
+        background-color: navy;
+    }
+
+    .name {
+        border: white solid 5px;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: #f2f2f2;
+        color: black;
+    }
+
+    .link {
+        width: 320px;
+        height: 100px;
+        padding: 10px;
+        color: turquoise;
+        transition: color 1s, width 2s, background 1s;
+    }
+
+    .link:hover {
+        background: turquoise;
+        color: white;
+        width: 750px;
+    }
+
+    .link>a {
+        color: turquoise;
+        text-decoration: none;
+        transition: color 1s, padding 2s;
+        padding-bottom: 80px;
+    }
+
+    .link:hover>a {
+        color: white;
+    }
+
+    .link:hover>.a1 {
+        padding-right: 444px;
+    }
+
+    .link:hover>.a2 {
+        padding-right: 573px;
+    }
+
+    .link:hover>.a3 {
+        padding-right: 635px;
+    }
+
+    header img {
+        border-radius: 500000px;
+        width: 100px
+    }
+
+    body {
+        background-repeat: no-repeat;
+    }
+
+    .section {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section h2 {
+        font-size: 34px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .wrap {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .box {
+        width: 350px;
+        border: 5px solid black;
+        flex-direction: row;
+    }
+
+    #textbox {
+        border:none;
+    }
+    #textbox p{
+        font-size:20px
+    }
+    #image img{
+        height:392px;
+        width:374px;
+    }
+    #image{
+        border:none;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        padding:30px;
+    }
+    #form input{
+        padding:2.5px;
+    }
+    #submit{
+     
+        padding: 10px 10px !important;
+        width: 150px;
+        background-color: #00f7ff;
+      
+    }
+    .center-wrap{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<head>
+    <title>Spiderman - Join Our Club!</title>
+    <link rel="icon" type="image/x-icon"
+        href="C:\Users\ankyp\OneDrive\Desktop\My HTML Projects\Icons\Austim_favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="https://pbs.twimg.com/profile_images/1222646977332174849/xWcD6t_Q_400x400.jpg">
+        <a href="#">
+            <h1 class="name">Spiderman</h1>
+        </a>
+        <ul>
+            <li><a href="./Spiderman_fanpage.html">Home</a></li>
+            <li><a href="./Spiderman_fanpage_about.html">About</a></li>
+            <li><a href="./spiderman_fanpage_contact.html">Contact us</a></li>
+            <li><a href="./spiderman_fanpage_joinclub.html">Join our club!</a></li>
+        </ul>
+    </header>
+    <div class="section">
+        <div class="wrap">
+            <div class="box" id="textbox">
+                <h2>Join Our Club!</h2>
+                <p>We require some details for your presence in our Spiderman community.</p>
+            </div>
+            <div class="box">
+                <form action="backend.js" id="form">
+                    <input type="text" placeholder="Full Name">
+                    <br>
+                    <input type="email" placeholder="E-mail">
+                    <br>
+                    <input type="number" placeholder="Phone Number">
+                    <br>
+                    <textarea cols="30" rows="10" placeholder="Why do you want to join our club?"></textarea>
+                    <br>
+                    <div class="center-wrap">
+
+                        <input type="submit" id="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
