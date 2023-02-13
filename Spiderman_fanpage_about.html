@@ -1,142 +1,182 @@
 <html>
-<style>
-*{
-  margin:0px;
-  padding:0px;
-}
-html {
-  margin: none;
-  font-family: sans-serif;
-}
-header {
-  background-color: #911a1a;
-  height: 100px;
-  display: flex;
-  padding: 20px;
-  align-items: center;
-}
-footer {
-  background-color: #4cdce0;
-  height: 80px;
-  text-align: center;
-  padding-top: 20px;
-  color: #f2f2f2;
-  font-size: 20px;
-  margin-top: 50px;
-  font-family: Serif, Garamond;
-  font-weight: bold;
-  text-decoration: underline;
-}
-ul {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-li > a {
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-  border: 2px solid black;
-  background: #f2f2f2;
-  border-radius: 12px;
-  transition: padding 0.25s, color 0.25s;
-}
-li {
-  padding-right: 20px;
-  padding-right: 30px;
-}
-li:first-child {
-  list-style: none;
-  padding-left: 0px;
-}
-li:hover > a {
-  color: white;
-  background-color:navy;
-}
-.name {
-  border: white solid 5px;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: #f2f2f2;
-  color: black;
-}
-.link {
-  width: 320px;
-  height: 100px;
-  padding: 10px;
-  color: turquoise;
-  transition: color 1s, width 2s, background 1s;
-}
-.link:hover {
-  background: turquoise;
-  color: white;
-  width: 750px;
-}
-.link > a {
-  color: turquoise;
-  text-decoration: none;
-  transition: color 1s, padding 2s;
-  padding-bottom: 80px;
-}
-.link:hover > a {
-  color: white;
-}
-.link:hover > .a1 {
-  padding-right: 444px;
-}
-.link:hover > .a2 {
-  padding-right: 573px;
-}
-.link:hover > .a3 {
-  padding-right: 635px;
-}
-header img{
-    border-radius:500000px;
-    width:100px
-}
-body{
-background-repeat: no-repeat;
-}
-.section{
-  height: 500px;
-  width:100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.section h2{
-  font-size: 34px;
-  margin-top:15px ;
-}
-.wrap{
-  width:100%;
-  height:400px;
-  display:flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.box{
-  width:350px;
-  height:350px;
-  border: 5px solid black;
-  flex-direction: row;
-}
-.half1 img{
-  width:100%;
-  height:175px;
-}
-.half2{
-  padding: 15px;
-}
-.half2 h4{
-  text-align: center;
-  font-size: 20px;
-}
-</style>
+
 <head>
   <title>Spiderman - About</title>
   <link rel="icon" type="image/x-icon" href="C:\Users\ankyp\OneDrive\Desktop\My HTML Projects\Icons\Austim_favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{
+      margin:0px;
+      padding:0px;
+    }
+    html {
+      margin: none;
+      font-family: sans-serif;
+    }
+    header {
+      background-color: #911a1a;
+      height: 100px;
+      display: flex;
+      padding: 20px;
+      align-items: center;
+    }
+    footer {
+      background-color: #4cdce0;
+      height: 80px;
+      text-align: center;
+      padding-top: 20px;
+      color: #f2f2f2;
+      font-size: 20px;
+      margin-top: 50px;
+      font-family: Serif, Garamond;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    ul {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    li > a {
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      border: 2px solid black;
+      background: #f2f2f2;
+      border-radius: 12px;
+      transition: padding 0.25s, color 0.25s;
+    }
+    li {
+      padding-right: 20px;
+      padding-right: 30px;
+    }
+    li:first-child {
+      list-style: none;
+      padding-left: 0px;
+    }
+    li:hover > a {
+      color: white;
+      background-color:navy;
+    }
+    .name {
+      border: white solid 5px;
+      padding: 10px;
+      border-radius: 25px;
+      background-color: #f2f2f2;
+      color: black;
+    }
+    .link {
+      width: 320px;
+      height: 100px;
+      padding: 10px;
+      color: turquoise;
+      transition: color 1s, width 2s, background 1s;
+    }
+    .link:hover {
+      background: turquoise;
+      color: white;
+      width: 750px;
+    }
+    .link > a {
+      color: turquoise;
+      text-decoration: none;
+      transition: color 1s, padding 2s;
+      padding-bottom: 80px;
+    }
+    .link:hover > a {
+      color: white;
+    }
+    .link:hover > .a1 {
+      padding-right: 444px;
+    }
+    .link:hover > .a2 {
+      padding-right: 573px;
+    }
+    .link:hover > .a3 {
+      padding-right: 635px;
+    }
+    header img{
+        border-radius:500000px;
+        width:100px
+    }
+    body{
+    background-repeat: no-repeat;
+    }
+    .section{
+      height: 500px;
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .section h2{
+      font-size: 34px;
+      margin-top:15px ;
+    }
+    .wrap{
+      width:100%;
+      height:400px;
+      display:flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .box{
+      width:350px;
+      height:350px;
+      border: 5px solid black;
+      flex-direction: row;
+    }
+    .half1 img{
+      width:100%;
+      height:175px;
+    }
+    .half2{
+      padding: 15px;
+    }
+    .half2 h4{
+      text-align: center;
+      font-size: 20px;
+    }
+    @media  only screen and (max-width: 500px) {
+  header {
+      background-color: #911a1a;
+      height: auto;
+      display: flex;
+      padding: 20px;
+      align-items: center;
+      flex-direction: column;
+    }
+    ul {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: flex-end;
+      list-style-type: none;
+    }
+    li > a {
+      padding: 7px;
+      text-decoration: none;
+      color: black;
+      border: 2px solid black;
+      background: #f2f2f2;
+      border-radius: 12px;
+      transition: padding 0.25s, color 0.25s;
+      margin-top: 3px;
+    }
+    li {
+      padding-right: 3px;
+      margin-top:17.5px;
+      margin-left: 1.2px;
+      margin-right: 1.2px;
+    }
+    header img{
+        border-radius:500000px;
+        width:100px;
+        margin-bottom: 14.75px;
+    }
+ }
+    </style>
 </head>
 
 <body>
