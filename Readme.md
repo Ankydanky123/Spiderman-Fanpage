@@ -6,3 +6,6 @@
 - This website is created using html css and its a multipage website.
 - It contains 4 webpages Home , About , Contact , Join the club
 - This website can be used to share information about spiderman movies and its characters.
+# Responsive View Mobile
+
+!['Screenshot'](./images/Responsive%20Mobile%20View.png)
